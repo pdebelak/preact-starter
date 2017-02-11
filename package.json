@@ -5,7 +5,8 @@
   "author": "Peter Debelak <pdebelak@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "NODE_ENV=development webpack-dev-server --inline --hot"
+    "dev": "./bin/dev",
+    "build": "./bin/build"
   },
   "babel": {
     "presets": [
