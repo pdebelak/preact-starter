@@ -8,12 +8,13 @@ you might not want.
 
 I comes with webpack and babel setup to write preact with jsx. It has a
 `yarn.lock` file if you want to use yarn, but you can just delete that if you
-prefer to use npm directly.
+prefer to use npm directly. It has mocha with jsdom for testing.
 
 ## Commands
 
 1. `npm run dev` starts the development server
-2. `npm run build` builds the javascript bundle for production along with the
+2. `npm test` runs the tests
+3. `npm run build` builds the javascript bundle for production along with the
    contents of the `public` directory into the `build` directory
 
 ## How to use

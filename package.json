@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "./bin/dev",
-    "build": "./bin/build"
+    "build": "./bin/build",
+    "test": "./bin/test"
   },
   "babel": {
     "presets": [
@@ -28,6 +29,8 @@
     "babel-loader": "^6.2.10",
     "babel-preset-es2015": "^6.22.0",
     "babel-preset-react": "^6.22.0",
+    "jsdom": "^9.10.0",
+    "mocha": "^3.2.0",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.3.0"
   },
