@@ -1,8 +1,5 @@
 import { h, render } from 'preact';
 
-const App = () =>
-  <p>From javascript!</p>;
-
-export default App;
+import App from './app';
 
 render(<App />, document.getElementById('app'));

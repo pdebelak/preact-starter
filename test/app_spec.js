@@ -1,7 +1,7 @@
 import assert from 'assert';
 import { h, render } from 'preact';
 
-import App from '../src/index';
+import App from '../src/app';
 
 describe('<App />', () => {
   it('renders', () => {
