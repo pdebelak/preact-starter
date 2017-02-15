@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && cd .. && pwd )
+
+rm -rf build
+mkdir build
+cp -R $DIR/public/* $DIR/build/
+NODE_ENV=production webpack -p
