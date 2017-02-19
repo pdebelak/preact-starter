@@ -16,6 +16,8 @@ prefer to use npm directly. It has mocha with jsdom for testing.
 2. `npm test` runs the tests
 3. `npm run build` builds the javascript bundle for production along with the
    contents of the `public` directory into the `build` directory
+4. `npm run build_for_github` builds the javascript bundle into a `docs` folder
+   for github pages
 
 ## How to use
 
