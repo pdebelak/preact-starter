@@ -7,8 +7,7 @@
   "scripts": {
     "dev": "./bin/dev",
     "build": "./bin/build",
-    "test": "./bin/test",
-    "build_for_github": "./bin/build_for_github"
+    "test": "./bin/test"
   },
   "babel": {
     "presets": [
