@@ -20,11 +20,11 @@ module.exports = {
     filename: 'bundle.js',
   },
   devServer: {
-		port: process.env.PORT || 5678,
-		host: 'localhost',
-		publicPath: '/',
-		contentBase: './public',
-		historyApiFallback: true,
-		open: true,
-	},
+    port: process.env.PORT || 5678,
+    host: 'localhost',
+    publicPath: '/',
+    contentBase: './public',
+    historyApiFallback: true,
+    open: true,
+  },
 };
